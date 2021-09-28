@@ -6,6 +6,8 @@ import {ReactComponent as mijozlar} from '../assets/icons/mijoz.svg'
 import {ReactComponent as hisobotlar} from '../assets/icons/xisobot.svg'
 import {ReactComponent as hodimlar} from '../assets/icons/katalog.svg'
 import {ReactComponent as katalog} from '../assets/icons/katalog.svg'
+import Generic from '../pages/Generic';
+import Buyurtmalar from '../pages/Buyurtmalar';
 
 
 export const sidebar = [
@@ -14,7 +16,7 @@ export const sidebar = [
         title:'Buyurtmalar',
         path:'/buyurtmalar',
         Icon:buyurtmalar,
-        component:'',
+        Component:Buyurtmalar,
         hidden: false
     },
     {
@@ -22,7 +24,7 @@ export const sidebar = [
         title:'Mahsulotlar',
         path:'/mahsulotlar',
         Icon:mahsulotlar,
-        component:'',
+        Component:Generic,
         hidden: false
     },
     {
@@ -30,7 +32,7 @@ export const sidebar = [
         title:'Kategoriyalar',
         path:'/kategoriyalar',
         Icon:katagoriyalar,
-        component:'',
+        Component:Generic,
         hidden: false
     },
     {
@@ -38,7 +40,7 @@ export const sidebar = [
         title:'Filiallar',
         path:'/filiallar',
         Icon:filial,
-        component:'',
+        Component:Generic,
         hidden: false
     },
     {
@@ -46,7 +48,7 @@ export const sidebar = [
         title:'Mijozlar',
         path:'/mijozlar',
         Icon:mijozlar,
-        component:'',
+        Component:Generic,
         hidden: false
     },
     {
@@ -54,7 +56,7 @@ export const sidebar = [
         title:'Hisobotlar',
         path:'/hisobotlar',
         Icon:hisobotlar,
-        component:'',
+        Component:Generic,
         hidden: false
     },
     {
@@ -62,7 +64,7 @@ export const sidebar = [
         title:'Hodimlar',
         path:'/hodimlar',
         Icon:hodimlar,
-        component:'',
+        Component:Generic,
         hidden: false
     },
     {
@@ -70,7 +72,7 @@ export const sidebar = [
         title:'Katalog',
         path:'/katalog',
         Icon:katalog,
-        component:'',
+        Component:Generic,
         hidden: false
     },
 ]

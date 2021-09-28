@@ -6,8 +6,8 @@ display: flex;
 flex-direction: column;
 width: 300px;
 height: 100vh;
-border: 1px solid red;
 padding: 30px 0;
+background-color: white;
 `;
 
 
@@ -31,6 +31,7 @@ export const Wrapper = styled.div`
 display: flex;
 flex-direction: column;
 padding-right: 24px;
+height:${({left})=> left && '100%'};
 /* border-left:${({left})=> left && '4px solid #FCB600'}; */
 `;
 

@@ -15,20 +15,20 @@ export const Sidebar = () => {
                 </Wrapper>
             </Header>
                 <Wrapper >
-                    {sidebar.map(({title, Icon, path})=>(
-                            <Link activeStyle={activeStyle} to={path}>
-                                <IconWrapper>
-                                    <Icon/>
-                                </IconWrapper>
-                                {title}    
-                            </Link>
-                        ))}
-                        <Logout>
-                            <IconWrapper>
-                                <Chiqish/>
-                            </IconWrapper>
-                            Chiqish
-                        </Logout>
+                {sidebar.map(({title, Icon, path})=>(
+                    <Link activeStyle={activeStyle} to={path}>
+                        <IconWrapper>
+                            <Icon/>
+                        </IconWrapper>
+                        {title}    
+                    </Link>
+                    ))}
+                    <Logout>
+                        <IconWrapper>
+                            <Chiqish/>
+                        </IconWrapper>
+                        Chiqish
+                    </Logout>
                 </Wrapper>
         </Container>
     )
