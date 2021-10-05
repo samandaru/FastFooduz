@@ -1,13 +1,11 @@
-import styled from 'styled-components'
-
-
+import styled from 'styled-components';
 
 export const Container = styled.div`
-display: flex;
-background: #E5E5E5;
+  display: flex;
+  width: 100%;
+  background: #e5e5e5;
 `;
 
-
 export const Body = styled.div`
-display: flex;
+  display: flex;
 `;

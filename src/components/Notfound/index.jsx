@@ -1,10 +1,8 @@
-import React from 'react'
-import { Container } from './style'
+import React from 'react';
+import { Container } from './style';
 
 export const Notfound = () => {
-    return (
-        <Container/>
-    )
-}
+  return <Container />;
+};
 
-export default Notfound
+export default Notfound;

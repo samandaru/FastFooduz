@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export const Generic = ({location}) => {
-    return (
-        <div>
-           <h1>coming soon{location.pathname} </h1>
-        </div>
-    )
-}
+export const Generic = ({ location }) => {
+  return (
+    <div>
+      <h1>Coming soon {location.pathname}</h1>
+    </div>
+  );
+};
 
-
-export default Generic
+export default Generic;

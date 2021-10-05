@@ -1,8 +1,8 @@
 import React from 'react';
-import Buyurtma from '../../components/Buyurtmalar';
+import { Container } from './style';
 
 export const Buyurtmalar = () => {
-  return <Buyurtma />;
+  return <Container>Buyurtmalar</Container>;
 };
 
 export default Buyurtmalar;
