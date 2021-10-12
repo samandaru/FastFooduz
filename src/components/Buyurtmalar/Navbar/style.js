@@ -89,7 +89,7 @@ Tab.Item = styled.div`
   height: 40px;
   border-radius: 18px;
   background: ${({ active }) => (active ? 'white' : 'transparent')};
-  color: #b7bcc0;
+  color:${({ active }) => (active ? 'black' : '#b7bcc0')}; 
   cursor: pointer;
   transition: all 0.3s;
 `;
